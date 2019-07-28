@@ -35,21 +35,21 @@
 #define DISPLAY_CHARSET_ISO10646_1
 #define CHARSIZE 2
 
-#define WELCOME_MSG                         MACHINE_NAME _UxGT(" pronto.")
+#define WELCOME_MSG                         MACHINE_NAME _UxGT(" pronta!.")
 
 #define MSG_BACK                            _UxGT("Voltar")
 #define MSG_SD_INSERTED                     _UxGT("Cartão inserido")
 #define MSG_SD_REMOVED                      _UxGT("Cartão removido")
 #define MSG_LCD_ENDSTOPS                    _UxGT("Finais")
 #define MSG_MAIN                            _UxGT("Menu principal")
-#define MSG_AUTOSTART                       _UxGT("Autostart")
+#define MSG_AUTOSTART                       _UxGT("Iniciar SDCard")
 #define MSG_DISABLE_STEPPERS                _UxGT("Desabi. motores")
 #define MSG_DEBUG_MENU                      _UxGT("Menu Debug")
 #define MSG_PROGRESS_BAR_TEST               _UxGT("Testar Barra de Prog")//resso
-#define MSG_AUTO_HOME_X                     _UxGT("Ir na origem X")
-#define MSG_AUTO_HOME_Y                     _UxGT("Ir na origem Y")
-#define MSG_AUTO_HOME_Z                     _UxGT("Ir na origem Z")
-#define MSG_AUTO_HOME                       _UxGT("Ir na origem XYZ")
+#define MSG_AUTO_HOME_X                     _UxGT("Home de X")
+#define MSG_AUTO_HOME_Y                     _UxGT("Home de Y")
+#define MSG_AUTO_HOME_Z                     _UxGT("Home de Z")
+#define MSG_AUTO_HOME                       _UxGT("Home XYZ")
 #define MSG_TMC_Z_CALIBRATION               _UxGT("Calibrar Z")
 #define MSG_LEVEL_BED_HOMING                _UxGT("Indo para origem")
 #define MSG_LEVEL_BED_WAITING               _UxGT("Clique para Iniciar")
