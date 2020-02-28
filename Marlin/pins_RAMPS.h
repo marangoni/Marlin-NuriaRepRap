@@ -72,9 +72,9 @@
 #define X_MIN_PIN           3
 #ifndef X_MAX_PIN
   #define X_MAX_PIN         2
-#endif
-#define Y_MIN_PIN          14
-#define Y_MAX_PIN          15
+#endif                        //*** Atenção ***
+#define Y_MIN_PIN          15 //Invertido - padrao y_min_pin=14 e y_max_pin_15
+#define Y_MAX_PIN          14
 #define Z_MIN_PIN          18
 #define Z_MAX_PIN          19
 

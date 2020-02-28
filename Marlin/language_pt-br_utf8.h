@@ -83,9 +83,9 @@
 #define MSG_NEXT_CORNER                     _UxGT("Próximo Canto")
 #define MSG_EDITING_STOPPED                 _UxGT("Fim da Edição")
 
-#define MSG_USER_MENU                       _UxGT("Comando customizado")
+#define MSG_USER_MENU                       _UxGT("Comandos Usuario")
 #define MSG_UBL_DOING_G29                   _UxGT("Executando G29")
-#define MSG_UBL_UNHOMED                     _UxGT("Fora da Origam")
+#define MSG_UBL_UNHOMED                     _UxGT("Fora da Origem")
 #define MSG_UBL_TOOLS                       _UxGT("Ferramentas UBL")
 #define MSG_UBL_LEVEL_BED                   _UxGT("Unified Bed Leveling")
 #define MSG_UBL_MANUAL_MESH                 _UxGT("Fazer malha manual")

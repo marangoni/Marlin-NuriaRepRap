@@ -518,8 +518,8 @@
 #define USE_ZMIN_PLUG
 
 //***** ATENÇÃO ****
-//***** ATENÇÃO **** Pinos Ymin e Ymax trocados no arquivo ramps.h (saídas digitais 14 e 15)!!! - na placa deve ser ligado o pino Ymax (na realidade será o Ymin)
-//***** ATENÇÃO ****
+//***** ATENÇÃO **** Pinos Ymin e Ymax trocados no arquivo pins_ramps.h
+//***** ATENÇÃO **** saídas digitais 14 e 15)!!! - na placa deve ser ligado o pino Ymax (na realidade será o Ymin)
 
 //#define USE_XMAX_PLUG
 //#define USE_YMAX_PLUG
@@ -735,8 +735,6 @@
 /**
  * Z Servo Probe, such as an endstop switch on a rotating arm.
  */
-//#define Z_PROBE_SERVO_NR 0   // Defaults to SERVO 0 connector.
-//#define Z_SERVO_ANGLES {70,0}  // Z Servo Deploy and Stow angles
 
 /**
  * The BLTouch probe uses a Hall effect sensor and emulates a servo.
@@ -911,7 +909,7 @@
 //#define Z_MAX_POS 200
 
 //The size of the print bed
-#define X_BED_SIZE 140 //* teste
+#define X_BED_SIZE 160 //* Valor máximo de x que não gera interferências no início e fim de curso
 #define Y_BED_SIZE 140 //*valor anterior 160
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
@@ -1415,7 +1413,7 @@
  *
  * View the current statistics with M78.
  */
-//#define PRINTCOUNTER
+#define PRINTCOUNTER
 
 //=============================================================================
 //============================= LCD and SD support ============================
@@ -1850,7 +1848,7 @@
 // Use software PWM to drive the fan, as for the heaters. This uses a very low frequency
 // which is not as annoying as with the hardware PWM. On the other hand, if this frequency
 // is too low, you should also increment SOFT_PWM_SCALE.
-//#define FAN_SOFT_PWM
+#define FAN_SOFT_PWM
 
 // Incrementing this by 1 will double the software PWM frequency,
 // affecting heaters, and the fan if FAN_SOFT_PWM is enabled.
@@ -1955,12 +1953,12 @@
  * Set this manually if there are extra servos needing manual control.
  * Leave undefined or set to 0 to entirely disable the servo subsystem.
  */
-#define NUM_SERVOS 3 // Servo index starts with 0 for M280 command
+#define NUM_SERVOS 1 // Servo index starts with 0 for M280 command
 
 // Delay (in milliseconds) before the next move will start, to give the servo time to reach its target angle.
 // 300ms is a good value but you can try less delay.
 // If the servo can't reach the requested position, increase it.
-#define SERVO_DELAY { 300, 300, 300 }
+#define SERVO_DELAY { 300 }
 
 // Only power servos during movement, otherwise leave off to prevent jitter
 #define DEACTIVATE_SERVOS_AFTER_MOVE

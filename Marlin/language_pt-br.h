@@ -81,7 +81,7 @@
 #define MSG_NEXT_CORNER                     _UxGT("Proximo Canto")
 #define MSG_EDITING_STOPPED                 _UxGT("Fim da Edicao")
 
-#define MSG_USER_MENU                       _UxGT("Comando customizado")
+#define MSG_USER_MENU                       _UxGT("Comandos Usuario")
 #define MSG_UBL_DOING_G29                   _UxGT("Executando G29")
 #define MSG_UBL_UNHOMED                     _UxGT("Fora da Origam")
 #define MSG_UBL_TOOLS                       _UxGT("Ferramentas UBL")
