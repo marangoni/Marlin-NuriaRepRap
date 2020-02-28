@@ -620,7 +620,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 78.7402*2, 78.7402*2, 5120.00, 760*1*1.5 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80,80,400,525.667 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80,80,4000,500} //LCMO
 
 /**
  * Default Max Feed Rate (mm/s)
