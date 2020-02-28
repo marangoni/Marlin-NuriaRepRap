@@ -1020,7 +1020,7 @@
   //#define FILAMENT_UNLOAD_ALL_EXTRUDERS         // Allow M702 to unload all extruders above a minimum target temp (as set by M302)
 #endif
 
-// @section tmc
+//@section tmc 
 
 /**
  * TMC26X Stepper Driver options
